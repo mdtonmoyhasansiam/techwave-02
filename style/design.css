@@ -221,6 +221,74 @@
     padding-bottom: 120px;
 }
 
+.techwave{
+    background-color: #230E3D;
+    padding-bottom: 120px;
+}
+
+.techwave-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.techwave-container h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cart-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    margin-top: 40px;
+}
+
+.cart-info img{
+    width: 60px;
+    height: 60px;
+}
+
+.cart-info{
+    background-color: rgba(53, 17, 101, 0.4);
+    border: none;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.cart-info h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.cart-info p{
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.cart-a{
+    grid-row: span 2;
+}
+
+.cart-b{
+    grid-column: span 2;
+}
+
+.cart-c{
+    grid-column: span 2;
+}
+
+.cart-d{
+    grid-column: span 2;
+}
+
 /*Media Responsive Code*/
 
 /* Small device */
@@ -349,6 +417,22 @@
     padding-bottom: 5px;
 }
 
+.techwave-container{
+    padding-top: 40px;
+}
+
+.techwave-container h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cart-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 250px);
+    width: 400px;
+    margin: 0 auto;
+}
+
 }
 /* Medium Device  */
 
@@ -426,6 +510,26 @@
 
 .about-cart-info p{
     padding-bottom: 5px;
+}
+
+.cart-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cart-a{
+    grid-row: span 2;
+}
+
+.cart-b{
+    grid-column: span 1;
+}
+
+.cart-c{
+    grid-column: span 1;
+}
+
+.cart-d{
+    grid-column: span 2;
 }
 
 
