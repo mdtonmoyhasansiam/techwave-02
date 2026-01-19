@@ -68,7 +68,9 @@
     display: none;
 }
 
-/*Media Responsive Code */
+/*Media Responsive Code*/
+
+/* Small device */
 
 @media screen and (max-width: 576px) {
     .nav-links {
@@ -86,6 +88,18 @@
 
     .logo{
         margin-left: 20px;
+    }
+    
+}
+/* Medium Device  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .logo{
+        margin-left: 15px;
+    }
+
+    .subscribe-btn{
+        margin-right: 15px;
     }
     
 }
