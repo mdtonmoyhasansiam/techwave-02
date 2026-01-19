@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-01{
+    background-color: rgba(26, 11, 46, 1)
+}
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
+  /* transition: color 0.3s; */
+}
+
+.nav-links a:hover {
+  color: #ff2fb3;
+}
+
+.subscribe-btn {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+  cursor: pointer;
+}
+
+.subscribe-btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+/*Media Responsive Code */
+
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
+
+    .subscribe-btn {
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: inline;
+        margin-right: 25px;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+    
+}
