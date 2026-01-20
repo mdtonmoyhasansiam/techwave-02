@@ -517,28 +517,27 @@
 }
 
 .img-container .hero-img1{
-    width: 200px;
-    height: 200px;
-    left: 29%;
-    top: 20%;
+    width: 150px;
+    height: 150px;
+    left: 28%;
+    top: 27%;
 }
 
 .img-container .hero-img2{
     width: 47px;
     height: 70px;
-    left: 44%;
-    top: 35%;
+    left: 42%;
+    top: 36%;
 }
 
 .new-badge{
     left: 57%;
-    top: 23%;
+    top: 29%;
 }
 
 .hero-text{
     position: absolute;
-    width: 400px;
-    left: 11%;
+    left: 1%;
 }
 
 .hero-text h2{
