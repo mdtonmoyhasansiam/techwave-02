@@ -107,6 +107,26 @@
     position: absolute;
     left: 54%;
     top: 15%;
+    animation-name: badge;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes badge {
+    0%{
+        background-color: #00FF88;
+    }
+
+    50%{
+        background-color: #ff0000;
+        border: 5px dotted yellow;
+    }
+
+    100%{
+        background-color: #00ff88c7;
+    }
 }
 
 .hero-text{
@@ -173,6 +193,10 @@
     border: 1px solid #00FF88;
     border-radius: 10000px;
     cursor: pointer;
+}
+
+.subscribe:hover{
+    background-color: rgba(47, 204, 15, 0.541);
 }
 
 .subscribe a{
