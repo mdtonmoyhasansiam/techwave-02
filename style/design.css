@@ -633,9 +633,13 @@
 .cart-container{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 250px);
-    width: 400px;
+    /* max-width: 400px; */
     margin: 0 auto;
 }
+
+/* .cart-info{
+    width: 400px;
+} */
 
 .featured-cart{
     flex-direction: column;
@@ -666,7 +670,6 @@
     flex-direction: column;
     padding: 24px;
     text-align: center;
-    width: 400px;
     margin: 0 auto;
 }
 
