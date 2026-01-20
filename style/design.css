@@ -493,6 +493,10 @@
 /* Small device */
 
 @media screen and (max-width: 576px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .nav-links {
         display: none;
     }
@@ -636,14 +640,13 @@
     margin: 0 auto;
 }
 
-/* .cart-info{
-    width: 400px;
-} */
-
 .featured-cart{
     flex-direction: column;
     gap: 16px;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .featured-container{
